@@ -63,6 +63,7 @@
     {"name":"sPlayerWalk011","order":3,"path":"sprites/sPlayerWalk011/sPlayerWalk011.yy",},
     {"name":"oPlayerSelector","order":3,"path":"objects/oPlayerSelector/oPlayerSelector.yy",},
     {"name":"sShoot","order":8,"path":"sprites/sShoot/sShoot.yy",},
+    {"name":"o_Bomb","order":8,"path":"objects/o_Bomb/o_Bomb.yy",},
     {"name":"sMainMenuCursor","order":1,"path":"sprites/sMainMenuCursor/sMainMenuCursor.yy",},
     {"name":"snd_Damage_02","order":2,"path":"sounds/snd_Damage_02/snd_Damage_02.yy",},
     {"name":"fnOption","order":1,"path":"fonts/fnOption/fnOption.yy",},

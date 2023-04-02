@@ -94,6 +94,7 @@
     {"id":{"name":"oControllLevel","path":"objects/oControllLevel/oControllLevel.yy",},},
     {"id":{"name":"sShoot","path":"sprites/sShoot/sShoot.yy",},},
     {"id":{"name":"tmOpening","path":"timelines/tmOpening/tmOpening.yy",},},
+    {"id":{"name":"o_Bomb","path":"objects/o_Bomb/o_Bomb.yy",},},
     {"id":{"name":"sMainMenuCursor","path":"sprites/sMainMenuCursor/sMainMenuCursor.yy",},},
     {"id":{"name":"snd_Damage_02","path":"sounds/snd_Damage_02/snd_Damage_02.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},

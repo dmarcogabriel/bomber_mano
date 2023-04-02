@@ -21,11 +21,11 @@ dir = Position.down
 
 walkSprite = sPlayerWalk01
 idleSprite = sPlayerIdle01
-bombsAmount = 1
+bombs_amount = 1
 bombPower = 3
 maxHealth = 3
 healthPoints = 3
 invincible = false
-damage_received = 0
+dropped_bombs = 0
 
 DamageAnimationInit(c_white)

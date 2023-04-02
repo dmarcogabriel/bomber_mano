@@ -59,11 +59,22 @@ function PlayerStateFree(){
 		alarm[0] = room_speed * 5
 		
 	#region drop bomb
-	if key_bomb {
-		// todo: check if player has bombs to drop
-		// todo: set bomb x and y coords
-		// todo: check if has no bomb placed on these
-		// todo: drop da bomb
+	if (
+		key_bomb and
+		!place_meeting(x, y, o_Bomb) and
+		dropped_bombs <= bombs_amount
+	) {
+		var _x = (floor(x / SPRITE_SIZE) * SPRITE_SIZE) + (SPRITE_SIZE / 2)
+		var _y = (floor(y / SPRITE_SIZE) * SPRITE_SIZE)  + (SPRITE_SIZE / 2)
+		instance_create_layer(
+			_x,
+			_y,
+			"instances",
+			o_Bomb,
+			{ owner: id }
+		)
+		dropped_bombs++
+
 	}
 	#endregion
 }
@@ -81,7 +92,7 @@ function PlayerStateDamage() {
 
 function PlayerStateDead() {
 	image_speed = 4
-	sprite_index = walkSprite
+	sprite_index = walkSprite // todo: add death sprites here
 	if !alarm[1]
 		alarm[1] = room_speed * 4
 }
