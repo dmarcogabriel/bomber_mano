@@ -1,0 +1,1 @@
+room_goto(Level01_01)
